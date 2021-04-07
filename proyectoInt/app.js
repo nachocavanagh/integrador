@@ -12,6 +12,7 @@ var loginRouter = require('./routes/login')
 var addRouter = require('./routes/add')
 var profileRouter = require('./routes/profile')
 var searchRouter = require('./routes/search')
+var editRouter = require('./routes/edit')
 
 var app = express();
 
@@ -33,6 +34,7 @@ app.use('/login', loginRouter);
 app.use('/product-add', addRouter);
 app.use('/profile', profileRouter);
 app.use('/search-result', searchRouter);
+app.use('/profile-edit', editRouter);
 
 
 // catch 404 and forward to error handler
