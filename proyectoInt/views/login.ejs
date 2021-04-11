@@ -8,21 +8,53 @@
 	<!-- Include Header -->
 	<%- include('./partials/header.ejs') %> 
 	<!-- /Header -->
+	
+	<div class="main">
+	
+		<!-- Sing in  Form -->
+		<section class="sign-in">
+			<div class="container">
+				<div class="signin-content">
+					<div class="signin-image">
+						<figure><img src="images/products/default-image.png" alt="sing up image"></figure>
+						<a href="/register" class="signup-image-link">No tenes cuenta?</a>
+					</div>
+	
+					<div class="signin-form">
+						<h2 class="form-title">Log in</h2>
+						<form method="POST" class="register-form" id="login-form">
+							<div class="form-group">
+								<label for="your_name">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill"
+										viewBox="0 0 16 16">
+										<path
+											d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+									</svg>
+								</label>
+								<input type="text" name="your_name" id="your_name" placeholder="Email" />
+							</div>
 
-	<!-- Novedades -->
-	<div class="container products-wrapper">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="products-title">Ingresar</h2>
+							<div class="form-group">
+								<label for="your_pass">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill"
+										viewBox="0 0 16 16">
+										<path
+											d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+									</svg>
+								</label>
+								<input type="password" name="your_pass" id="your_pass" placeholder="Contraseña" />
+							</div>
+
+							<div class="form-group form-button">
+								<input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
-			<!-- Show the "ultimos" products -->
-			<h2 class="col-12"> <i>///////////////////////////////////////// <br> Acá va el formulario de login. <br>
-			Debe cumplir con los puntos de la consigna y ser coherente con la tabla de la base de datos <br>
-			Eliminen estás líneas y coloquen el formulario. <br>
-			Recuerden todo lo que necesita tanto la etiqueta form como los campos input para operar correctamtente</i> <br>
-			////////////////
-			</h2>
-
+		</section>
+	
+	</div>
 
 	<!-- include footer -->
 	<%- include('./partials/footer.ejs')  %> 
