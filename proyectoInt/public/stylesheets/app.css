@@ -67,8 +67,9 @@ hr {
 
 /*====== Main Header ======*/
 .main-header {
-  padding: 15px 0;
-  background-color: violet;
+  padding-bottom: 10px;
+  background-color: #000000;
+  color: white;
 }
 
 .main-header_home-link,
@@ -109,6 +110,10 @@ hr {
   cursor: pointer;
 }
 
+.logo {
+  border-radius: 50%;
+}
+
 
 /*====== Main Navbar ======*/
 .btn-toggle-navbar {
@@ -123,7 +128,7 @@ hr {
 }
 
 .main-navbar {
-  margin-top: 20px;
+  margin-top: 5px;
   display: none;
 }
 
@@ -475,6 +480,7 @@ textarea.form-input {
   border-radius: 4px;
   color: #fff;
 }
+
 
 
 /*====== Media-Queries ======*/
