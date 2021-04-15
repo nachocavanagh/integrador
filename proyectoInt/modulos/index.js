@@ -1,5 +1,5 @@
-let autos = [
-            {   
+let autos = [      
+      {   
                 id:0,
                 marca: "Volkswagen",
                 modelo: "Scirocco GTS",
@@ -39,6 +39,7 @@ let autos = [
                 descripcion:"La nueva VW Amarok V6 258cv Black Style será recordada en Autoblog por haber protagonizado una doble paradoja. Es el vehículo de pruebas que estuvo más semanas en nuestro garage y, al mismo tiempo, el que proporcionalmente menos pudimos manejar: apenas dos días. Se explicó todo en esta nota.La Amarok V6 258cv Black Style tiene un precio de 3.8 millones de pesos, aunque también se ofrecen versiones V6 258cv desde 2.97 millones. La crítica abreviada se reproduce a continuación.¿Cómo se diferencia la anterior Amarok V6 224cv de la nueva Amarok V6 258cv? Por fuera, en las versiones Comfortline, Highline y Extreme (todas ahora con 258cv), no hay forma de saberlo. Habrá que guiarse -más o menos- por el número de la patente. VW podría haber colocado algún emblema, para que los propietarios luzcan la novedad con cierto orgullo, pero no lo hizo.",
                 comentarios:4,
             },
+
             {
                 id:4,
                 marca: "Audi",

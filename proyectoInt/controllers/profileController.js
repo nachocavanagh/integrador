@@ -1,6 +1,6 @@
 let profileController = {
     index: function (req, res, next) {
-        res.render('profile', { title: 'Express' });
+        res.render('profile');
     },
 }
 

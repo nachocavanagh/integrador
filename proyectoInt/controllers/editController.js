@@ -1,6 +1,6 @@
 let editController = {
     index: function (req, res, next) {
-        res.render('profile-edit', { title: 'Express' });
+        res.render('profile-edit');
     },
 }
 

@@ -1,6 +1,6 @@
 let loginController = {
     index: function (req, res, next) {
-        res.render('login', { title: 'Express' });
+        res.render('login');
     },
 }
 
