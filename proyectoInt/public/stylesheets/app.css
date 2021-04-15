@@ -193,6 +193,9 @@ hr {
 
 .product-box_image {
   border-bottom: 1px solid var(--light-gray);
+  border-radius: 10px ;
+  max-height: 400px;
+  max-width: 600px;
 }
 
 .product-box_data {
@@ -315,7 +318,10 @@ hr {
   width: 70%;
   display: block;
   margin: auto;
+  border-radius: 10px;
+  text-align: center;
 }
+
 
 .product-detail-info {
   border-right: 1px solid var(--light-gray);

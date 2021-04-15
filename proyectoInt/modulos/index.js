@@ -21,7 +21,7 @@ let autos = [
             },
             {
                 id:2,
-                marca: "volkswagen",
+                marca: "Volkswagen",
                 modelo: "Vento GLI ",
                 anio: 2014,
                 color: "Azul",
