@@ -41,7 +41,7 @@ let autos = [
                 imagen:"/images/products/amarokv6.jpeg",
                 descripcion:"La nueva VW Amarok V6 258cv Black Style será recordada en Autoblog por haber protagonizado una doble paradoja. Es el vehículo de pruebas que estuvo más semanas en nuestro garage y, al mismo tiempo, el que proporcionalmente menos pudimos manejar: apenas dos días. Se explicó todo en esta nota.La Amarok V6 258cv Black Style tiene un precio de 3.8 millones de pesos, aunque también se ofrecen versiones V6 258cv desde 2.97 millones. La crítica abreviada se reproduce a continuación.¿Cómo se diferencia la anterior Amarok V6 224cv de la nueva Amarok V6 258cv? Por fuera, en las versiones Comfortline, Highline y Extreme (todas ahora con 258cv), no hay forma de saberlo. Habrá que guiarse -más o menos- por el número de la patente. VW podría haber colocado algún emblema, para que los propietarios luzcan la novedad con cierto orgullo, pero no lo hizo.",
                 comentarios:4,
-                nombre: 'volkswagen amarok negro'
+                nombre: 'volkswagen amarok v6 negro'
             },
 
             {
@@ -64,6 +64,7 @@ let autos = [
                 imagen:"/images/products/audia6.jpeg",
                 descripcion:" El Audi A6 es la berlina mediana grande de Ingolstadt, un modelo que lleva fabricándose desde 1994 a lo largo de cuatro generaciones, la última de las cuales se presentó en la primavera de 2014. A parte de la Berlina cuenta con una versión familiar (Avant), otra de aspecto todocamino (Allroad), una deportiva (A6 S) e hiperdeportiva (RS 6) y una versión híbrida. La gama de motores para el nuevo A6 incluye tres mecánicas TFSI con potencias de entre 190 CV y 333 CV y cinco motores TDI que van de los 150 CV a los 320 CV. La tracción puede ser delantera o a las cuatro ruedas (Quattro). El Audi RS 6 Avant es la versión más potente de la gama A6. Está disponible únicamente con carrocería familiar y con dos niveles de potencia: 560 CV (RS 6 Avant, disponible desde finales de 2014) y 605 CV (RS 6 Avant performance, disponible desde finales de octubre de 2015). La tracción es siempre en las cuatro ruedas y el cambio automático de ocho velocidades. Como en toda la gama Audi, a la hora de comprar nuestro nuevo vehículo podremos optar entre los niveles de acabado Ambiente, Attraction y S (Sport). El precio de partida para el A6 arranca en 41.130 euros del motor 2.0 TDI Ultra de 150 CV.",
                 comentarios:6,
+                nombre: 'audi a6 s rojo'
             },
             {
                 id:6,
@@ -74,6 +75,7 @@ let autos = [
                 imagen:"/images/products/audiq5.jpeg",
                 descripcion:"Tras la presentación del Audi SQ5 a principios de año, Audi ya está ultimando los detalles de puesta a punto de la versión más deportiva y radical de su todocamino: el futuro Audi RS Q5 2018. A priori, este este nuevo SUV, que podría estar presente en el próximo salón de Frankfurt, en el mes de septiembre, equiparía un propulsor conocido: la mecánica de gasolina 2.9 V6 biturbo, que emplea el novedoso Audi RS 5 Coupé, con 450 CV de potencia y 600 Nm de par máximo. Por supuesto, estaría asociada a la transmisión automática con convertidor de par Tiptronic, con levas tras el volante y ocho velocidades.",
                 comentarios:7,
+                nombre: 'audi q5 rs negro'
             },
        
             {
@@ -85,6 +87,7 @@ let autos = [
                 imagen:"/images/products/camaro.jpeg",
                 descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
                 comentarios:8,
+                nombre: 'chevrolet camaro ss  amarillo'
             },    
           ]
 

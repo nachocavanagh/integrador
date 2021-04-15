@@ -6,7 +6,7 @@ let searchController = {
         let result = []
         for (let i = 0; i < autos.length; i++) {
 
-            if (autos[i].marca.includes(req.query.search)) {
+            if (autos[i].nombre.includes(req.query.search)) {
                 result.push(autos[i])
             }
         };
