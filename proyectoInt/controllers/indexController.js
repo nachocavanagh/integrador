@@ -1,7 +1,9 @@
+let autos = require("../modulos/index");
+
 let indexController = {
     index: function (req, res, next) {
         res.render('index', { 
-            title: 'Express',
+            autos: autos,
             logueado: true,
     });
     },
