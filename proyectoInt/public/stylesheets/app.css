@@ -194,6 +194,8 @@ hr {
 .product-box_image {
   border-bottom: 1px solid var(--light-gray);
   border-radius: 10px ;
+  height: 200px;
+  background-color: grey;
   max-height: 400px;
   max-width: 600px;
 }
