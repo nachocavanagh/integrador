@@ -36,7 +36,7 @@
 				<section class="product-box">
 					<a href="/products/<%= i %> ">
 						<figure class="product-box_image">
-							<img src="<%= autos[i].imagen%>" alt="cafetera moulinex">
+							<img class="imagen-producto" src="<%= autos[i].imagen%>" alt="cafetera moulinex">
 						</figure>
 						<article class="product-box_data">
 							<h2><%=autos[i].marca + " "+  autos[i].modelo + " "+ autos[i].anio + " "+  autos[i].color%></h2>
@@ -59,9 +59,9 @@
 			<% for( let i = 0; i < autos.length; i++ ) { %>
 			<div class="col-12 col-sm-6 col-lg-3">
 				<section class="product-box">
-					<a href="/products">
+					<a href="/products/<% i %> ">
 						<figure class="product-box_image">
-							<img src="<%= autos[i].imagen%>" alt="cafetera moulinex">
+							<img class="imagen-producto" src="<%= autos[i].imagen%>" alt="cafetera moulinex">
 						</figure>
 						<article class="product-box_data">
 							<h2><%= autos[i].marca + " "+  autos[i].modelo + " "+ autos[i].anio + " "+  autos[i].color%></h2>
