@@ -198,8 +198,8 @@ hr {
   background-color: grey;
   max-height: 400px;
   max-width: 600px;
+  object-fit: cover;
 }
-
 .product-box_data {
   padding: 15px;
   position: relative;
