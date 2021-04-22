@@ -89,6 +89,54 @@ let autos = [
                 comentarios:8,
                 nombre: 'chevrolet camaro ss  amarillo'
             },    
+            
+            {
+                id:7,
+                marca: "Chevrolet",
+                modelo: "Camaro SS",
+                anio: 2015,
+                color: "Amarillo",
+                imagen:"/images/products/camaro.jpeg",
+                descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
+                comentarios:8,
+                nombre: 'chevrolet camaro ss  amarillo'
+            },  
+
+            {
+                id:7,
+                marca: "Chevrolet",
+                modelo: "Camaro SS",
+                anio: 2015,
+                color: "Amarillo",
+                imagen:"/images/products/camaro.jpeg",
+                descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
+                comentarios:8,
+                nombre: 'chevrolet camaro ss  amarillo'
+            },  
+
+            {
+                id:7,
+                marca: "Chevrolet",
+                modelo: "Camaro SS",
+                anio: 2015,
+                color: "Amarillo",
+                imagen:"/images/products/camaro.jpeg",
+                descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
+                comentarios:8,
+                nombre: 'chevrolet camaro ss  amarillo'
+            },  
+
+            {
+                id:7,
+                marca: "Chevrolet",
+                modelo: "Camaro SS",
+                anio: 2015,
+                color: "Amarillo",
+                imagen:"/images/products/camaro.jpeg",
+                descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
+                comentarios:8,
+                nombre: 'chevrolet camaro ss  amarillo'
+            },  
           ]
 
 
