@@ -91,51 +91,51 @@ let autos = [
             },    
             
             {
-                id:7,
-                marca: "Chevrolet",
-                modelo: "Camaro SS",
-                anio: 2015,
-                color: "Amarillo",
-                imagen:"/images/products/camaro.jpeg",
+                id:8,
+                marca: "Ford",
+                modelo: "Mustang GT",
+                anio: 2021,
+                color: "Naranja",
+                imagen:"/images/products/mustanggt.jpg",
                 descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
                 comentarios:8,
-                nombre: 'chevrolet camaro ss  amarillo'
+                nombre: 'ford mustang gt naranja'
             },  
 
             {
-                id:7,
-                marca: "Chevrolet",
-                modelo: "Camaro SS",
-                anio: 2015,
-                color: "Amarillo",
-                imagen:"/images/products/camaro.jpeg",
+                id:9,
+                marca: "Jeep",
+                modelo: "Grand Cherokee SRT",
+                anio: 2021,
+                color: "Plateada",
+                imagen:"/images/products/grandcherokee.jpg",
                 descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
                 comentarios:8,
-                nombre: 'chevrolet camaro ss  amarillo'
+                nombre: 'jeep grand cherokee srt plateada'
             },  
 
             {
-                id:7,
-                marca: "Chevrolet",
-                modelo: "Camaro SS",
-                anio: 2015,
-                color: "Amarillo",
-                imagen:"/images/products/camaro.jpeg",
+                id:10,
+                marca: "Audi",
+                modelo: "RS Q8",
+                anio: 2021,
+                color: "Gris",
+                imagen:"/images/products/rsq8.jpg",
                 descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
                 comentarios:8,
-                nombre: 'chevrolet camaro ss  amarillo'
+                nombre: 'audi rs q8 gris'
             },  
 
             {
-                id:7,
-                marca: "Chevrolet",
-                modelo: "Camaro SS",
-                anio: 2015,
-                color: "Amarillo",
-                imagen:"/images/products/camaro.jpeg",
+                id:11,
+                marca: "Mercedes Benz",
+                modelo: "AMG GT R PRO",
+                anio: 2018,
+                color: "Verde",
+                imagen:"/images/products/gtrpro.jpg",
                 descripcion:"La gracia de tener un muscle-car no pasa tanto por el diseño exterior ni por el equipamiento interior. Lo que divide las aguas en este segmento, siempre, es lo que hay bajo el capot. Y acá Chevrolet no defrauda: porque ahí adentro hay un V8 L99, perteneciente al legendario linaje de los Small Blocks de General Motors. Claro que, desde el punto de vista argentino, no tiene nada de small. Es un colosal 6.2 litros con sólo dos válvulas por cilindro e inyección electrónica indirecta, que rinde homenaje al viejo lema: “There’s no replacement for displacement” (“No hay reemplazo para la cilindrada”). Y rinde como corresponde: potencia máxima de 405 cv a 5.900 rpm y un torque de 556 Nm a 4.300 rpm. La única transmisión disponible en la Argentina es automática. Es una caja secuencial de seis velocidades, con levas al volante y tres modos: Automático, Secuencial y Manual. La tracción, como no podía ser de otra manera, es trasera.",
                 comentarios:8,
-                nombre: 'chevrolet camaro ss  amarillo'
+                nombre: 'mercedes benz gtr pro verde'
             },  
           ]
 
