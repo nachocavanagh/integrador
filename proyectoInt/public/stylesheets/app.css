@@ -158,13 +158,7 @@ hr {
 
 
 /*====== Banner ======*/
-.banner {
-  background-image: url(/images/img-home-banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100px;
-}
+
 
 
 /*====== Products ======*/
@@ -176,8 +170,8 @@ hr {
   object-fit: cover;
 }
 .products-wrapper {
-  margin-top: 30px;
   margin-bottom: 30px;
+  min-height: 500px;
 }
 
 .products-title {
@@ -501,10 +495,6 @@ textarea.form-input {
   .main-header_credit-link {
     margin-top: 0;
     text-align: right;
-  }
-
-  .banner {
-    height: 320px;
   }
 
   .btn-toggle-navbar {
