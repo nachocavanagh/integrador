@@ -13,6 +13,7 @@ var addRouter = require('./routes/add')
 var profileRouter = require('./routes/profile')
 var searchRouter = require('./routes/search')
 var editRouter = require('./routes/edit')
+var demoRouter = require('./routes/demo')
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/', demoRouter);
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/products', productsRouter);
