@@ -1,43 +1,44 @@
-const { DataTypes } = require("sequelize/types");
+module.exports = ( sequelize, DataTypes) =>{
+    let alias = "Usuario";
 
-const sequelize = require()
+    let cols = {
+        id: {
+            autoIncrement: true,
+            primaryKey: true,
+            type: DataTypes.INTEGER
+        },
+        nombre: {
+            type: DataTypes.STRING
+        },
+        apellido: {
+            type: DataTypes.STRING
 
-let alias = "Usuario";
+        },
+        fecha_nacimiento: {
+            type: DataTypes.DATE
 
-let cols  = {
-    id: {
-        autoIncrement: true,
-        primaryKey: true,
-        type: DataTypes.INTEGER
-    },
-    nombre: {
-        type: DataTypes.STRING
-    },
-    apellido: {
-        type: DataTypes.STRING
+        },
+        mail: {
+            type: DataTypes.STRING
+        },
+        contrasena: {
+            type: DataTypes.STRING
+        },
+        numero_telefono: {
+            type: DataTypes.STRING
+        },
 
-    },
-    fecha_nacimiento: {
-        type: DataTypes.DATE
+    }
 
-    },
-    mail: {
-        type: DataTypes.STRING
-    },
-    contrasena: {
-        type: DataTypes.STRING
-    },
-    numero_telefono: {
-        type: DataTypes.STRING
-    },
+    let configs = {
+        tableName: "usuarios",
+        timestamps: false
+
+    }
+
+    const Usuario = sequelize.define(alias, cols, configs);
+
+    return Usuario;
 
 }
 
-let configs = {
-    tableName: "usuarios",
-
-}
-
-const Usuario = sequelize.define(alias, cols, configs);
-
-module.exports = Usuario;
