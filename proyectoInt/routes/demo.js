@@ -5,10 +5,10 @@ const db = require('../database/models');
 router.get('/demo', function (req, res) {
     let usuario = db.Usuario.findAll()
         .then((data) => {
-            res.send(data);
+           return res.send(data);
         })
         .catch((error) => {
-            res.send(error)
+           return res.send(error)
         })
 });
 
