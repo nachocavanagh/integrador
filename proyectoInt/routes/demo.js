@@ -1,16 +1,15 @@
-var express = require("express");
-var router = express.router();
-const db = require("../database/models");
+var express = require('express');
+var router = express.Router();
+const db = require('../database/models');
 
-
-router.get('/demo', function(req, res) {
+router.get('/demo', function (req, res) {
     let usuario = db.Usuario.findAll()
-    .then((resultados) => {
-        res.send(resultados);
-    })
-    .catch((error) => {
-        res.send(error)
-    })
-}
+        .then((data) => {
+            res.send(data);
+        })
+        .catch((error) => {
+            res.send(error)
+        })
+});
 
 module.exports = router;
